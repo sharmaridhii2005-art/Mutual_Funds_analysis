@@ -1,0 +1,20 @@
+Day 1 Data Quality Summary
+
+Total datasets loaded : 10
+
+Missing Values
+
+04_monthly_sip_inflows.csv
+- yoy_growth_pct contains 12 missing values
+
+Duplicate Rows
+
+No duplicate rows found.
+
+AMFI Validation
+
+All AMFI codes present in fund_master exist in nav_history.
+
+Conclusion
+
+Overall dataset quality is good.
