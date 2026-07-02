@@ -28,3 +28,27 @@ print("\nData Types:")
 print(nav.dtypes)
 print("\nFirst 5 rows:")
 print(nav.head())
+import pandas as pd
+
+# Read investor transactions dataset
+transactions = pd.read_csv("data/raw/03_investor_transactions.csv")
+
+# Display first 5 rows
+print(transactions.head())
+
+# Dataset information
+print(transactions.info())
+
+# Missing values
+print(transactions.isnull().sum())
+
+# Duplicate rows
+print(transactions.duplicated().sum())
+
+# Unique transaction types
+print("\nTransaction Types:")
+print(transactions["transaction_type"].unique())
+
+# Unique KYC status
+print("\nKYC Status:")
+print(transactions["kyc_status"].unique())

@@ -22,6 +22,9 @@
 ## 07_scheme_performance.csv
 
 | Column | Data Type | Description |
+
+
+
 |--------|-----------|-------------|
 | amfi_code | Integer | Mutual fund code |
 | return_1yr_pct | Float | 1-year return (%) |
